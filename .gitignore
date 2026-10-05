@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# 高德 API Key 配置文件（密钥不提交）
+config.py
+.env
+
+# 数据与中间结果（体积大，含 ArcGIS 空间数据）
+数据/
+图/
+可达性计算/
+服务率计算表/
+
+# 表格与空间数据文件
+*.xls
+*.xlsx
+*.csv
+*.shp
+*.shx
+*.dbf
+*.sbx
+*.sbn
+*.prj
+*.cpg
+*.CPG
+*.tif
+*.tfw
+
+# 图片与文档（非代码产物）
+*.png
+*.jpg
+*.jpeg
+*.doc
+*.docx
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
